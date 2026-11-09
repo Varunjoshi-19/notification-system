@@ -5,7 +5,8 @@ export const config = {
   twilio: {
     sid: "AC3b7ccea073a9ece816dc16d7a3ff6f54",
     token: "df89eb5e48ca26d96e2e1ebbfe4e7d0a",
-    fromNumber: "+9162833114", 
+    fromNumber: "+17372508034", 
+    smsBody: "sms_account_alerts"
   },
 
   sendgrid: {

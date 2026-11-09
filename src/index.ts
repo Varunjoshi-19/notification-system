@@ -15,7 +15,7 @@ sgMail.setApiKey(config.sendgrid.apiKey);
 async function sendSms(to: string) {
   try {
     const msg = await twilioClient.messages.create({
-      body: "Test SMS from notify-test server 🚀",
+      body: config.twilio.smsBody,
       from: config.twilio.fromNumber,
       to,
     });
